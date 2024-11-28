@@ -1,0 +1,73 @@
+:root {
+    --background-color1: #2C3E50;
+    --background-color2: #1ABC9C;
+    --background-color3: #3A5363;
+    --content-color1: #F4F6F7;
+    --content-color2: #E74C3C;
+    --text-color1: #2C2C2C;
+    --nav-color1: #16A085;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* POZADÍ */
+body {
+    background-color: var(--background-color1);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.cont {
+    background-color: var(--background-color3);
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 7%;
+    text-align: center;
+}
+/* CONT - NAV-BAR */
+#nav-bar {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    background-color: var(--background-color1);
+    border: 1px solid var(--text-color1);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--nav-color1);
+}
+
+.nav-link:hover {
+    background-color: var(--text-color1);
+    height: 80%;
+    align-self: center;
+    border-radius: 3px;
+    /* box-shadow: 2px 2px 5px var(--background-color3); */
+    
+}
+
+.header {
+    color: var(--background-color2);
+}
+
+#služby {
+    margin-top: 2px;
+}
+
+.možnosti {
+    list-style-type: none;
+}
+
+#kontakt {
+    margin-top: 2px;
+}
